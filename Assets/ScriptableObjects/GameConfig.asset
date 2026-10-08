@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1ab5ec2ff32d94698a26d7e10d14b6, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  startTime: 30
+  rewardTime: 1
+  superRewardTime: 15
+  penaltyTime: 3
+  killMilestone: 5
+  superMilestone: 100
+  dashDuration: 0.12
+  dashCooldown: 0.4
+  dashEaseExponent: 4.5
+  playerRadius: 0.7
+  comboThreshold: 3
+  slowmoDuration: 1
+  slowmoFactor: 0.3
+  ghostFloor: 8
+  ghostCap: 15
+  initialGhosts: 8
+  ghostBaseSpeed: 2.6
+  ghostSpeedCap: 1.5
+  ghostHomingPull: 1
+  ghostRadius: 1.1
+  ghostMinSpawnDistance: 6.5
+  initialSpawnInterval: 2
+  minSpawnInterval: 0.4
+  spawnRampDuration: 20
+  panicThreshold: 10
+  panicSpeedMultiplier: 1.6
+  arenaSize: {x: 40, y: 22}
